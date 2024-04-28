@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bb00ff;
+}
+
+.card {
+  background-color: #fff;
+  padding: 64px;
+  border-radius: 5px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.screen2 {
+  justify-content: space-evenly;
+}
+
+.card h1 {
+  font-size: 24px;
+}
+
+#fraseSorte {
+  max-width: 301px;
+  padding: 10px;
+
+  background-color: #e4edf1;
+  font-size: 24px;
+  animation: ss 1s;
+}
+
+button {
+  margin-top: 17px;
+  background-color: #ff9500;
+  color: white;
+  padding: 16px;
+  border: 0;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #e28401;
+  cursor: pointer;
+}
+
+.hiden {
+  display: none;
+}
+
+@keyframes ss {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
